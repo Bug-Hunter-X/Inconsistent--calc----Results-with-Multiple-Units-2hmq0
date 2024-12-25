@@ -1,0 +1,10 @@
+/* bugSolution.css */
+/* Instead of relying on a complex `calc()` expression, break down the calculation into separate steps. This improves browser compatibility and predictability. */
+
+.container {
+  width: 50%;
+  padding-right: 20px;
+  margin-left:10em;
+}
+
+/* Avoid the problematic `calc()` expression. */
